@@ -5,7 +5,7 @@ source "http://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
-gem "authpds", :git => "git://github.com:barnabyalter/authpds.git"
+gem "authpds", :git => "git://github.com/barnabyalter/authpds.git"
 
 # Add coveralls for testing.
 gem "coveralls", "~> 0.7.0", :require => false, :group => :test
