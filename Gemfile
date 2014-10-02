@@ -6,7 +6,7 @@ source "http://rubygems.org"
 gemspec
 
 gem "authpds", :git => "git://github.com/barnabyalter/authpds-nyu.git"
-gem "exlibris-aleph", :git => "git://github.com/barnabyalter/exlibris-aleph.git"
+gem "exlibris-aleph", '~> 2.0.0'
 
 # Add coveralls for testing.
 gem "coveralls", "~> 0.7.0", :require => false, :group => :test
